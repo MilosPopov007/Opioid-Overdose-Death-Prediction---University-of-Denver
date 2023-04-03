@@ -6,10 +6,8 @@ d3.json("opioid_data.json").then(function(data) {
   var stateInput = d3.select("#state-input");
   var countyInput = d3.select("#county-input");
 
-  // Initialize the table with the first 10 rows of data
-  var rowsToShow = 10;
-  var slicedData = data.slice(0, rowsToShow);
-  buildTable(slicedData);
+  // Initialize the table with all the rows of data
+  buildTable(data);
 
   // Create a function to build the table
   function buildTable(data) {
@@ -51,7 +49,7 @@ d3.json("opioid_data.json").then(function(data) {
 
     // Clear the table body and rebuild the table with the filtered data
     tbody.html("");
-    buildTable(filteredData.slice(0, rowsToShow));
+    buildTable(filteredData);
   }
 
   // Attach an event listener for the form submit button
@@ -59,14 +57,15 @@ d3.json("opioid_data.json").then(function(data) {
 
   // Attach an event listener for the clear button
   d3.selectAll("#clear-btn").on("click", function() {
-    // Clear the form inputs and rebuild the table with the first 10 rows of data
+    // Clear the form inputs and rebuild the table with all the rows of data
     yearInput.property("value", "");
     stateInput.property("value", "");
     countyInput.property("value", "");
     tbody.html("");
-    buildTable(data.slice(0, rowsToShow));
+    buildTable(data);
   });
 });
+
 
 
 

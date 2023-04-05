@@ -28,7 +28,7 @@ Additionally, we will explore the following questions during our data analysis:
 * Which of our independent variables shows the strongest correlation to overdose deaths?<br><br>
 
 
-### Individual Branches
+## Individual Branches
 Our team members have created individual branches on GitHub for their contributions to the project.
 
 Our team members have devised a well-structured and balanced approach to work on their individual branches on GitHub, with the goal of completing the ETL process, creating a comprehensive database for the project in PostgreSQL, and compiling and evaluating a machine learning model that effectively answers the project's research questions.
@@ -37,13 +37,13 @@ Each team member will utilize their respective expertise and strengths to ensure
 
 By doing so, we aim to maintain a high level of quality and consistency throughout the entire project, ultimately producing impactful and reliable research results.
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 Our team's exploratory data analysis (EDA) process involved preparing and cleaning individual data sets for each independent variable in our models, including opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income.<br> We had to handle each data set differently, such as converting average rates to population values per county, removing unnecessary lines of data (such as state values instead of county values), and converting some data sets from long to wide format. These steps helped us become familiar with each data set.<br><br>
 
 After creating a comprehensive relational schema and loading our cleaned data into Postgres, we utilized AWS to establish a secure connection to our database.<br> This enabled us to easily access and query our data from any location, facilitating efficient analysis and modeling.<br> The combination of a robust relational schema and a reliable cloud infrastructure allowed us to effectively store and manage large amounts of data, laying the foundation for our machine learning approach to predicting opioid overdose deaths.<br><br>
 Once we created the final data set using SQL, we had to clean it from null values and suppressed values received from the WONDER data set.<br> We also had to address 'unreliable' crude rates in some counties.<br> To salvage these data points, we calculated the crude rate using the total deaths and total population of the county.<br> Overall, our EDA process allowed us to effectively prepare the data for modeling and gain a deeper understanding of each variable's impact on opioid overdose deaths.<br><br>
 
-### The Analysis Phase of the Project - Using Machine Learning to Analyze Opioid Overdose Deaths Data
+## The Analysis Phase of the Project - Using Machine Learning to Analyze Opioid Overdose Deaths Data
 
 The analysis phase of the project aimed to tackle the significant public health challenge posed by the opioid epidemic in the United States. With thousands of opioid overdose deaths every year, we recognized the need for innovative approaches to analyze and predict this issue.<BR>
 We employed various machine learning techniques to study opioid overdose data and develop predictive models at the county level.<br>
@@ -72,7 +72,7 @@ In this project, an MLPRegressor was used to predict opioid overdose death rates
 ##### [Deep Neural Networks for Opioid Overdose Prediction without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/Opioid%20Overdose%20Prediction%20using%20Deep%20Neural%20Networks%20(No%20Suppressed%20Values).ipynb)
 Deep neural networks were used to predict opioid overdose deaths without suppressed values. The data was split into training, validation, and testing sets, and a deep neural network model with four dense layers was developed. The model achieved an R-squared score of 0.846, MSE of 2484.396, and RMSE of 49.844. The model was used to predict opioid overdose deaths for each county in the testing set for the year 2020, and visualizations were created to evaluate the model's predictions.<br><br>
  
-### The technologies, languages, tools, and algorithms that the team used throughout the project
+## The technologies, languages, tools, and algorithms that the team used throughout the project
  
 We used these technologies, libraries, and algorithms in combination to perform data cleaning, analysis, and modeling to predict opioid overdose deaths in US counties.
  
@@ -90,11 +90,11 @@ We used these technologies, libraries, and algorithms in combination to perform 
 * Postgres SQL: for database management
 * AWS: for cloud computing
 
-### The results of the analysis
+## The results of the analysis
 
 Our team has made significant progress in using machine learning algorithms to predict the rate of opioid overdose deaths in US counties.<br> By analyzing various socio-economic variables and opioid dispensing rates, we were able to develop models that achieved valuable results.<br> Our ultimate goal is to inform targeted prevention and intervention strategies that can help reduce the number of opioid overdose deaths in the United States.<br><br> We believe that our data-driven approach can make a meaningful contribution to this critical issue and help improve the lives of those affected by the opioid crisis.
  
-###  Recommendations for future analysis that the team would like to make
+## Recommendations for future analysis that the team would like to make
 
 There are several recommendations for future analysis that the team would like to make based on their experience working on this project. These recommendations include:
 
@@ -108,7 +108,7 @@ There are several recommendations for future analysis that the team would like t
 
 * Considering alternative cloud computing solutions: While the team used AWS for cloud computing, there may be alternative solutions that could be more efficient and cost-effective. It would be helpful to explore alternative cloud computing solutions to optimize the use of resources.<br><br>
  
-###  Data visualization and presentation
+##  Data visualization and presentation
  
 During the project, the team used various tools and techniques for data visualization and presentation. Two of the primary tools used were Tableau and an interactive web application developed using JavaScript and HTML.
 
@@ -120,7 +120,7 @@ The team also developed an interactive web application using JavaScript and HTML
 
 We used a variety of data visualization tools and techniques to help users better understand the patterns and trends in the data. The interactive nature of these visualizations allowed users to explore the data in a more engaging and meaningful way.
  
-### Data Disclaimer and Compliance<br>
+## Data Disclaimer and Compliance<br>
 Our team is committed to ensuring the responsible and ethical use of data in our research and analysis. In the development of our machine learning model for predicting opioid overdose deaths, we have used data obtained from the National Center for Health Statistics (NCHS), a reputable source that adheres to strict data privacy regulations.<br>In accordance with the Public Health Service Act (42 U.S.C. 242m(d)), our team has taken the necessary precautions to abide by the data use restrictions outlined by NCHS.<br> We understand the importance of protecting the privacy of individuals and establishments represented in the data, and we are committed to using the data solely for health statistical reporting and analysis.To comply with these restrictions, we have:<br>
 
 * Used the data exclusively for health statistical reporting and analysis in the context of our project.

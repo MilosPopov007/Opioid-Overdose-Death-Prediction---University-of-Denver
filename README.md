@@ -72,9 +72,9 @@ In this project, an MLPRegressor was used to predict opioid overdose death rates
 ##### [Deep Neural Networks for Opioid Overdose Prediction without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/Opioid%20Overdose%20Prediction%20using%20Deep%20Neural%20Networks%20(No%20Suppressed%20Values).ipynb)
 Deep neural networks were used to predict opioid overdose deaths without suppressed values. The data was split into training, validation, and testing sets, and a deep neural network model with four dense layers was developed. The model achieved an R-squared score of 0.846, MSE of 2484.396, and RMSE of 49.844. The model was used to predict opioid overdose deaths for each county in the testing set for the year 2020, and visualizations were created to evaluate the model's predictions.<br><br>
  
-## The technologies, languages, tools, and algorithms that the team used throughout the project
+## The technologies, languages, tools and algorithms that the team used throughout the project
  
-We used these technologies, libraries, and algorithms in combination to perform data cleaning, analysis, and modeling to predict opioid overdose deaths in US counties.
+We used these technologies, libraries and algorithms in combination to perform data cleaning, analysis, and modeling to predict opioid overdose deaths in US counties.
  
 * Python: the primary programming language for data analysis and machine learning
 * Pandas: a Python library for data manipulation and analysis

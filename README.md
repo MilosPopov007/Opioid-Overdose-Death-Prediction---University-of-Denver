@@ -27,6 +27,16 @@ Additionally, we will explore the following questions during our data analysis:
 * What is the correlation (if any) of opioid deaths to education (income/poverty/unemployment/prescription rate) in the counties we have chosen?<br>
 * Which of our independent variables shows the strongest correlation to overdose deaths?<br><br>
 
+
+### Individual Branches
+Our team members have created individual branches on GitHub for their contributions to the project.
+
+Our team members have devised a well-structured and balanced approach to work on their individual branches on GitHub, with the goal of completing the ETL process, creating a comprehensive database for the project in PostgreSQL, and compiling and evaluating a machine learning model that effectively answers the project's research questions.
+
+Each team member will utilize their respective expertise and strengths to ensure that their assigned tasks are completed efficiently and professionally.
+
+By doing so, we aim to maintain a high level of quality and consistency throughout the entire project, ultimately producing impactful and reliable research results.
+
 ### Exploratory Data Analysis
 Our team's exploratory data analysis (EDA) process involved preparing and cleaning individual data sets for each independent variable in our models, including opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income.<br> We had to handle each data set differently, such as converting average rates to population values per county, removing unnecessary lines of data (such as state values instead of county values), and converting some data sets from long to wide format. These steps helped us become familiar with each data set.<br><br>
 
@@ -108,4 +118,14 @@ The team also developed an interactive web application using JavaScript and HTML
 [Harnessing the Power of Data: Predicting Opioid Overdose Deaths with Machine Learning](https://patgilch17.github.io/Group1FinalProject/)
 
 We used a variety of data visualization tools and techniques to help users better understand the patterns and trends in the data. The interactive nature of these visualizations allowed users to explore the data in a more engaging and meaningful way.
+ 
+### Data Disclaimer and Compliance<br>
+Our team is committed to ensuring the responsible and ethical use of data in our research and analysis. In the development of our machine learning model for predicting opioid overdose deaths, we have used data obtained from the National Center for Health Statistics (NCHS), a reputable source that adheres to strict data privacy regulations.<br>In accordance with the Public Health Service Act (42 U.S.C. 242m(d)), our team has taken the necessary precautions to abide by the data use restrictions outlined by NCHS.<br> We understand the importance of protecting the privacy of individuals and establishments represented in the data, and we are committed to using the data solely for health statistical reporting and analysis.To comply with these restrictions, we have:<br>
+
+* Used the data exclusively for health statistical reporting and analysis in the context of our project.
+* Ensured that any sub-national geographic data presented or published does not include death counts of 9 or fewer, or death rates based on counts of nine or fewer.
+* Made no attempts to discover the identity of any person or establishment included in the data.
+* Committed to reporting any inadvertent discoveries of personal or establishment identities to the NCHS Confidentiality Officer, and refraining from disclosing or using such information.
+
+While these data use restrictions may impose certain limitations on our analysis, we are confident in our ability to develop a reliable machine learning model that can provide valuable insights into the factors influencing opioid overdose deaths.<br> By adhering to these guidelines, our team aims to maintain the highest standards of ethical research and analysis, while ensuring the privacy and confidentiality of individuals and establishments represented in the data.
  

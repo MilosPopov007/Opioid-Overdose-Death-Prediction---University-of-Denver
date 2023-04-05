@@ -86,6 +86,7 @@ We used these technologies, libraries, and algorithms in combination to perform 
 * Tableau: a data visualization tool
 * JavaScript and HTML: for creating an interactive website
 * Decision trees and Support Vector Machines (SVM): additional machine learning algorithms used in modeling
+* RandomForestClassifier: ensemble learning algorithm that builds multiple decision trees and combines their outputs to make predictions
 * Postgres SQL: for database management
 * AWS: for cloud computing
 

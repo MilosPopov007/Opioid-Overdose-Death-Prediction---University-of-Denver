@@ -61,9 +61,51 @@ In this project, an MLPRegressor was used to predict opioid overdose death rates
 
 ##### [Deep Neural Networks for Opioid Overdose Prediction without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/Opioid%20Overdose%20Prediction%20using%20Deep%20Neural%20Networks%20(No%20Suppressed%20Values).ipynb)
 Deep neural networks were used to predict opioid overdose deaths without suppressed values. The data was split into training, validation, and testing sets, and a deep neural network model with four dense layers was developed. The model achieved an R-squared score of 0.846, MSE of 2484.396, and RMSE of 49.844. The model was used to predict opioid overdose deaths for each county in the testing set for the year 2020, and visualizations were created to evaluate the model's predictions.<br><br>
+ 
+### The technologies, languages, tools, and algorithms that the team used throughout the project
+ 
+We used these technologies, libraries, and algorithms in combination to perform data cleaning, analysis, and modeling to predict opioid overdose deaths in US counties.
+ 
+* Python: the primary programming language for data analysis and machine learning
+* Pandas: a Python library for data manipulation and analysis
+* Numpy: a Python library for numerical computing
+* Matplotlib and Seaborn: Python libraries for data visualization
+* Scikit-learn: a popular machine learning library in Python
+* TensorFlow and Keras: open-source libraries for building deep learning models
+* Jupyter Notebook: a web-based interactive computing environment for data analysis and modeling
+* Tableau: a data visualization tool
+* JavaScript and HTML: for creating an interactive website
+* Decision trees and Support Vector Machines (SVM): additional machine learning algorithms used in modeling
+* Postgres SQL: for database management
+* AWS: for cloud computing
 
 ### The results of the analysis
 
 Our team has made significant progress in using machine learning algorithms to predict the rate of opioid overdose deaths in US counties.<br> By analyzing various socio-economic variables and opioid dispensing rates, we were able to develop models that achieved valuable results.<br> Our ultimate goal is to inform targeted prevention and intervention strategies that can help reduce the number of opioid overdose deaths in the United States.<br><br> We believe that our data-driven approach can make a meaningful contribution to this critical issue and help improve the lives of those affected by the opioid crisis.
  
+###  Recommendations for future analysis that the team would like to make
+
+There are several recommendations for future analysis that the team would like to make based on their experience working on this project. These recommendations include:
+
+* Finding more cohesive data sets: One of the main challenges the team faced during this project was finding data sets that were cohesive, with rate data that matched population totals. It would be helpful to find data sets that are more cohesive and easier to work with.
+
+* Adding more features to the analysis: While the team had access to a variety of data sets, there is always room for more. Adding features like mortgage rates, access to rehab centers, and demographic information could provide valuable insights into the opioid crisis.
+
+* Face-to-face time:  In future analyses, it would be beneficial to have face-to-face time to facilitate collaboration and brainstorming.
+
+* Presentation limitations: Due to time constraints and technical limitations, the team was unable to present all of their findings and visualizations in the final presentation. It would be helpful to have more time to present and share the results of the analysis.
+
+* Considering alternative cloud computing solutions: While the team used AWS for cloud computing, there may be alternative solutions that could be more efficient and cost-effective. It would be helpful to explore alternative cloud computing solutions to optimize the use of resources.<br><br>
+ 
+###  Data visualization and presentation
+ 
+During the project, the team used various tools and techniques for data visualization and presentation. Two of the primary tools used were Tableau and an interactive web application developed using JavaScript and HTML.
+
+The team used Tableau to create interactive visualizations that allowed users to explore the relationships between different variables and the opioid overdose death rates in US counties. The Tableau visualizations can be found at this link: <br>
+[Tableau visualizations](https://public.tableau.com/app/profile/iris.bel8090/viz/Final_Project_Workbook/Story1?publish=yes)
+ 
+The team also developed an interactive web application using JavaScript and HTML that allowed users to explore opioid overdose death rates in US counties by year.  The web application can be found at this link:<br>
+[Harnessing the Power of Data: Predicting Opioid Overdose Deaths with Machine Learning](https://patgilch17.github.io/Group1FinalProject/)
+
+We used a variety of data visualization tools and techniques to help users better understand the patterns and trends in the data. The interactive nature of these visualizations allowed users to explore the data in a more engaging and meaningful way.
  

@@ -35,6 +35,6 @@ Once we created the final data set using SQL, we had to clean it from null value
 
 ### The Analysis Phase of the Project - Using Machine Learning to Analyze Opioid Overdose Deaths Data
 
-The analysis phase of the project aimed to tackle the significant public health challenge posed by the opioid epidemic in the United States.<br> With thousands of opioid overdose deaths every year, we recognized the need for innovative approaches to analyze and predict this issue.
-<br> We employed various machine learning techniques to study opioid overdose data and develop predictive models at the county level.<br>
+The analysis phase of the project aimed to tackle the significant public health challenge posed by the opioid epidemic in the United States. With thousands of opioid overdose deaths every year, we recognized the need for innovative approaches to analyze and predict this issue.<BR>
+We employed various machine learning techniques to study opioid overdose data and develop predictive models at the county level.<br>
 By harnessing the power of machine learning, we sought to identify high-risk areas and help healthcare professionals and policymakers take proactive measures to prevent opioid overdose deaths.

@@ -43,6 +43,8 @@ Our team's exploratory data analysis (EDA) process involved preparing and cleani
 After creating a comprehensive relational schema and loading our cleaned data into Postgres, we utilized AWS to establish a secure connection to our database.<br> This enabled us to easily access and query our data from any location, facilitating efficient analysis and modeling.<br> The combination of a robust relational schema and a reliable cloud infrastructure allowed us to effectively store and manage large amounts of data, laying the foundation for our machine learning approach to predicting opioid overdose deaths.<br><br>
 Once we created the final data set using SQL, we had to clean it from null values and suppressed values received from the WONDER data set.<br> We also had to address 'unreliable' crude rates in some counties.<br> To salvage these data points, we calculated the crude rate using the total deaths and total population of the county.<br> Overall, our EDA process allowed us to effectively prepare the data for modeling and gain a deeper understanding of each variable's impact on opioid overdose deaths.<br><br>
 
+![This is an image](https://github.com/MilosPopov007/Opioid-Overdose-Death-Prediction---University-of-Denver/blob/main/Visualizations_Presentation/ERD.png)
+
 ## The Analysis Phase of the Project - Using Machine Learning to Analyze Opioid Overdose Deaths Data
 
 The analysis phase of the project aimed to tackle the significant public health challenge posed by the opioid epidemic in the United States. With thousands of opioid overdose deaths every year, we recognized the need for innovative approaches to analyze and predict this issue.<BR>
@@ -123,6 +125,10 @@ During the project, the team used various tools and techniques for data visualiz
 
 The team used Tableau to create interactive visualizations that allowed users to explore the relationships between different variables and the opioid overdose death rates in US counties. The Tableau visualizations can be found at this link: <br>
 [Tableau visualizations](https://public.tableau.com/app/profile/iris.bel8090/viz/Final_Project_Workbook/Story1?publish=yes)
+
+![This is an image](https://github.com/MilosPopov007/Opioid-Overdose-Death-Prediction---University-of-Denver/blob/main/Visualizations_Presentation/Dashboard_1.jpg)<br><br>
+
+![This is an image](https://github.com/MilosPopov007/Opioid-Overdose-Death-Prediction---University-of-Denver/blob/main/Visualizations_Presentation/Dashboard_2.jpg)<br><br>
  
 The team also developed an interactive web application using JavaScript and HTML that allowed users to explore opioid overdose death rates in US counties by year.  The web application can be found at this link:<br>
 [Harnessing the Power of Data: Predicting Opioid Overdose Deaths with Machine Learning](https://patgilch17.github.io/Group1FinalProject/)

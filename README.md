@@ -72,13 +72,13 @@ By harnessing the power of machine learning, we sought to identify high-risk are
  
  #### [Deep Neural Models](https://github.com/patgilch17/Group1FinalProject/tree/main/Milos/Machine%20Learning%20Models)
  
-##### [MLPRegressor for Predicting Opioid Overdose Deaths without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/MLPRegressor%20Model%20for%20Predicting%20Opioid%20Overdose%20Deaths%20without%20Suppressed%20Values.ipynb)
+##### [MLPRegressor for Predicting Opioid Overdose Deaths without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/MLPRegressor%20Model%20for%20Predicting%20Opioid%20Overdose%20Deaths%20without%20Suppressed%20Values.ipynb)
 In this project, an MLPRegressor was used to predict opioid overdose death rates in US counties. Data preprocessing steps were performed to check for null values, drop unnecessary columns, and apply one-hot encoding to categorical variables. The MLPRegressor was trained and achieved an R-squared score of 0.682, MSE of 4169.988, and RMSE of 64.575.
 
-##### [MLPRegressor with Imputed Values for Opioid Overdose Prediction:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/Opioid%20Overdose%20Prediction%20using%20MLPRegressor%20with%20Imputed%20Values.ipynb)
+##### [MLPRegressor with Imputed Values for Opioid Overdose Prediction:](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/Opioid%20Overdose%20Prediction%20using%20MLPRegressor%20with%20Imputed%20Values.ipynb)
  MLPRegressor was used with imputed values to address the missing data problem. Suppressed values were imputed by sampling from a normal distribution with the calculated mean and standard deviation. The model did not perform well, with an R-squared score of -0.593, MSE of 16012.284, and RMSE of 126.540.
 
-##### [Deep Neural Networks for Opioid Overdose Prediction without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/Opioid%20Overdose%20Prediction%20using%20Deep%20Neural%20Networks%20(No%20Suppressed%20Values).ipynb)
+##### [Deep Neural Networks for Opioid Overdose Prediction without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/Opioid%20Overdose%20Prediction%20using%20Deep%20Neural%20Networks%20(No%20Suppressed%20Values).ipynb)
 Deep neural networks were used to predict opioid overdose deaths without suppressed values. The data was split into training, validation, and testing sets, and a deep neural network model with four dense layers was developed. The model achieved an R-squared score of 0.846, MSE of 2484.396, and RMSE of 49.844. The model was used to predict opioid overdose deaths for each county in the testing set for the year 2020 and visualizations were created to evaluate the model's predictions.<br><br>
  
 ## The technologies, languages, tools and algorithms that the team used throughout the project

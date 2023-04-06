@@ -62,13 +62,20 @@ By harnessing the power of machine learning, we sought to identify high-risk are
  
  ##### [Logistic Regression](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb) 
  
+ 
  Logistic Regression model was used to predict which US counties would be identified as high-level based on the opioid overdose rates. Counties were assigned a class '1' for 'high' and class '0' for low based on the crude rate. High class consisted of counties in the top 25%. The logistic regression model achieved an accuracy score of 75%. 
+ 
+ ![This is an image](https://github.com/patgilch17/Group1FinalProject/blob/main/Visualizations_Presentation/log_reg.png)
  
  ##### [Support Vector Machines (SVM)](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb)
  
  The SVM model was used to predict US counties with the high levels of opioid overdose. The model performed similarly to the logistic regression model with an accuracy score of 0.75. 
  
+  ![This is an image](https://github.com/patgilch17/Group1FinalProject/blob/main/Visualizations_Presentation/SVM.png)
+ 
  ##### [Decision Trees](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb)
+ 
+ ![This is an image](https://github.com/patgilch17/Group1FinalProject/blob/main/Visualizations_Presentation/DecisionTrees.png)
  
  The Dicision Trees Classifier model permormed a little better than the SVM and logistic regression models with an accuracy score of 77%. 
  

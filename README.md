@@ -1,6 +1,6 @@
 # Opioid Overdose Death Prediction
 ## Selected Topic
-Our team, consisting of Anastassia Tatarskaja, Iris Belensky, Milos Popov, Olga Mironova, and Patrick Gilchrist from the University of Denver, has chosen to work on predicting the rate of opioid overdose deaths in US counties based on basic socio-economic variables and the dispensing rate of prescription opioids for that county.
+Our team, consisting of Anastassia Tatarskaja, Iris Belensky, Milos Popov, Olga Mironova, and Patrick Gilchrist from the University of Denver, chose to work on predicting the rate of opioid overdose deaths in US counties based on basic socio-economic variables and the dispensing rate of prescription opioids for that county.
 
 ## Reason for Topic Selection
 We selected this topic because the opioid crisis is a major public health concern in the United States, and understanding the factors that contribute to opioid overdose deaths can help inform targeted prevention and intervention strategies.<br>
@@ -39,9 +39,10 @@ By doing so, we aim to maintain a high level of quality and consistency througho
 
 ## Exploratory Data Analysis
 Our team's exploratory data analysis (EDA) process involved preparing and cleaning individual data sets for each independent variable in our models, including opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income.<br> We had to handle each data set differently, such as converting average rates to population values per county, removing unnecessary lines of data (such as state values instead of county values), and converting some data sets from long to wide format. These steps helped us become familiar with each data set.<br><br>
-
 After creating a comprehensive relational schema and loading our cleaned data into Postgres, we utilized AWS to establish a secure connection to our database.<br> This enabled us to easily access and query our data from any location, facilitating efficient analysis and modeling.<br> The combination of a robust relational schema and a reliable cloud infrastructure allowed us to effectively store and manage large amounts of data, laying the foundation for our machine learning approach to predicting opioid overdose deaths.<br><br>
-Once we created the final data set using SQL, we had to clean it from null values and suppressed values received from the WONDER data set.<br> We also had to address 'unreliable' crude rates in some counties.<br> To salvage these data points, we calculated the crude rate using the total deaths and total population of the county.<br> Overall, our EDA process allowed us to effectively prepare the data for modeling and gain a deeper understanding of each variable's impact on opioid overdose deaths.<br><br>
+Once we created the final data set using SQL, we had to clean it from null values and suppressed values received from the WONDER data set.<br> We also had to address 'unreliable' crude rates in some counties.<br> To salvage the unreliable data points, we calculated the crude rate using the total deaths and total population of the county.<br><br> 
+We continued the EDA process through the creation of visualizations in Tableau, which allowed us to both familiarize ourselves better with the opioid deaths data set and explore the relationship between opioid deaths and our independent variables. More information on this and the link to our Tableau workbook can be found in the visualization section below.<br><br>
+Overall, our EDA process allowed us to effectively prepare the data for modeling and gain a deeper understanding of each variable's impact on opioid overdose deaths.<br><br>
 
 ![This is an image](https://github.com/MilosPopov007/Opioid-Overdose-Death-Prediction---University-of-Denver/blob/main/Visualizations_Presentation/ERD.png)
 
@@ -52,6 +53,11 @@ We employed various machine learning techniques to study opioid overdose data an
 By harnessing the power of machine learning, we sought to identify high-risk areas and help healthcare professionals and policymakers take proactive measures to prevent opioid overdose deaths.
 
  #### [RandomForestClassifier](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/RandomForestGroupProject.ipynb)
+ 
+ The Random Forest Model was used both to predict if a county would have a high crude rate (Class 1). <br>
+ ![Random Forest Results](https://github.com/patgilch17/Group1FinalProject/blob/main/Patrick/Resources/RandomForest2.png)<br><br>
+ But also to identify the importance of our features which shows that Population and Per Capita Income are the most important features while something like the Dispense Rate does not seem to be as important.<br>
+ ![Feature Importance](https://github.com/patgilch17/Group1FinalProject/blob/main/Patrick/Resources/FeatureImportance2.png)<br>
  
  
  
@@ -118,7 +124,7 @@ Our team has made significant progress in using machine learning algorithms to p
 
 There are several recommendations for future analysis that the team would like to make based on their experience working on this project. These recommendations include:
 
-* Finding more cohesive data sets: One of the main challenges the team faced during this project was finding data sets that were cohesive, with rate data that matched population totals. It would be helpful to find data sets that are more cohesive and easier to work with.
+* Finding more cohesive data sets: One of the main challenges the team faced during this project was finding data sets that were cohesive, where every variable could be represented as a rate (rather than having a mix of rates and total population numbers). A data set exclusively based on variable rates would be a more logical base to begin analysis from. 
 
 * Adding more features to the analysis: While the team had access to a variety of data sets, there is always room for more. Adding features like mortgage rates, access to rehab centers, and demographic information could provide valuable insights into the opioid crisis.
 
@@ -153,4 +159,3 @@ Our team is committed to ensuring the responsible and ethical use of data in our
 * Committed to reporting any inadvertent discoveries of personal or establishment identities to the NCHS Confidentiality Officer, and refraining from disclosing or using such information.
 
 While these data use restrictions may impose certain limitations on our analysis, we are confident in our ability to develop a reliable machine learning model that can provide valuable insights into the factors influencing opioid overdose deaths.<br> By adhering to these guidelines, our team aims to maintain the highest standards of ethical research and analysis, while ensuring the privacy and confidentiality of individuals and establishments represented in the data.
- 

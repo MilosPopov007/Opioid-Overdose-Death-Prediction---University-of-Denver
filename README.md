@@ -1,4 +1,7 @@
 # Opioid Overdose Death Prediction
+
+##### The project official GitHub repository link [https://github.com/patgilch17/Group1FinalProject](https://github.com/patgilch17/Group1FinalProject)
+
 ## Selected Topic
 Our team, consisting of Anastassia Tatarskaja, Iris Belensky, Milos Popov, Olga Mironova, and Patrick Gilchrist from the University of Denver, chose to work on predicting the rate of opioid overdose deaths in US counties based on basic socio-economic variables and the dispensing rate of prescription opioids for that county.
 

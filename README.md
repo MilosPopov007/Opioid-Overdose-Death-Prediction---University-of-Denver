@@ -81,6 +81,8 @@ By harnessing the power of machine learning, we sought to identify high-risk are
  
  #### [Deep Neural Models](https://github.com/patgilch17/Group1FinalProject/tree/main/Milos/Machine%20Learning%20Models)
  
+ ![This is an image](https://github.com/patgilch17/Group1FinalProject/blob/main/Visualizations_Presentation/777.png)
+ 
 ##### [MLPRegressor for Predicting Opioid Overdose Deaths without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/MLPRegressor%20Model%20for%20Predicting%20Opioid%20Overdose%20Deaths%20without%20Suppressed%20Values.ipynb)
 In this project, an MLPRegressor was used to predict opioid overdose death rates in US counties. Data preprocessing steps were performed to check for null values, drop unnecessary columns, and apply one-hot encoding to categorical variables. The MLPRegressor was trained and achieved an R-squared score of 0.682, MSE of 4169.988, and RMSE of 64.575.
 

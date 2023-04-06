@@ -58,19 +58,19 @@ By harnessing the power of machine learning, we sought to identify high-risk are
  
  #### [LogReg_SVM_DecisionTrees_Models](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb)
  
- ##### Logistic Regression 
+ ##### [Logistic Regression](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb) 
  
  Logistic Regression model was used to predict which US counties would be identified as high-level based on the opioid overdose rates. Counties were assigned a class '1' for 'high' and class '0' for low based on the crude rate. High class consisted of counties in the top 25%. The logistic regression model achieved an accuracy score of 75%. 
  
- ##### Support Vector Machines (SVM)
+ ##### [Support Vector Machines (SVM)](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb)
  
  The SVM model was used to predict US counties with the high levels of opioid overdose. The model performed similarly to the logistic regression model with an accuracy score of 0.75. 
  
- ##### Decision Trees
+ ##### [Decision Trees](https://github.com/patgilch17/Group1FinalProject/blob/main/Models/LogReg_SVM_DecisionTrees_Models.ipynb)
  
  The Dicision Trees Classifier model permormed a little better than the SVM and logistic regression models with an accuracy score of 77%. 
  
- #### [Deep Neural Models]( https://github.com/patgilch17/Group1FinalProject/tree/main/Milos/Machine%20Learning%20Models)
+ #### [Deep Neural Models](https://github.com/patgilch17/Group1FinalProject/tree/main/Milos/Machine%20Learning%20Models)
  
 ##### [MLPRegressor for Predicting Opioid Overdose Deaths without Suppressed Values:](https://github.com/patgilch17/Group1FinalProject/blob/main/Milos/Machine%20Learning%20Models/MLPRegressor%20Model%20for%20Predicting%20Opioid%20Overdose%20Deaths%20without%20Suppressed%20Values.ipynb)
 In this project, an MLPRegressor was used to predict opioid overdose death rates in US counties. Data preprocessing steps were performed to check for null values, drop unnecessary columns, and apply one-hot encoding to categorical variables. The MLPRegressor was trained and achieved an R-squared score of 0.682, MSE of 4169.988, and RMSE of 64.575.
